@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2? family= Carter+One & family= Changa:wght@500 & display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Changa:wght@500&family=Gluten:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family= Carter+One & family = Changa:wght@200;300 & family= Gluten:wght@700 &família= corrigida & display=swap');
+
+        /* fontes*/
+
+        :root{
+            --corclaro:rgb(255, 255, 255);
+            --corescuro:rgb(25, 25, 25);
+        }
+
+        body,button{
+            font-family: 'Carter One', cursive;
+        }
+
+        h1,h2,ul{
+            font-family: 'Carter One', cursive;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+            font-size: 2rem;
+        }
+
+
+        html, body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+
+        header{
+            display:flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            height: 5%;
+            padding-top: 7px;
+        }
+
+        h1,ul,li,h2{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #listacabecalho{
+            width: 33.33%;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        li{
+            padding-left: 20px;
+        }
+
+.linhacabecalho{
+    font-size: 1.2rem;
+        }
+
+        li:hover, .material-symbols-outlined:hover{
+            color: #c0db93;
+            transition: 0.3s;
+        }
+
+        #logo{
+            font-size: 2rem;
+            width: 33.33%;
+        }
+
+        #container{
+            max-width: 100%;
+            background-color: #868686;
+            height:100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #texto1{
+            margin-left: 7%;
+            max-width: 40% ;
+            display: flex;
+            flex-direction: column;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+    #conhecer{
+        background-color: #86868600;
+        border-radius: 20px;
+        border: 3px solid white;
+        padding: 15px;
+        color: white;
+        text-align: center;
+        align-items: center;
+        font-size: 1rem;
+        width: 40%;
+        justify-content: center;
+    }
+
+    #conhecer:hover{
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+    
+    h2{
+        font-size: 3rem;
+    }
+
+    /*meio*/
+
+    main{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--corclaro);
+    }
+
+    #box1{
+        background-color: rgb(0, 0, 0);
+        max-width: 400px;
+        min-width: 400px;
+        height: 600px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        position: relative;
+    }
+
+    #box1:hover{
+        transition: 0.3s;
+    transform: scale(1.1);
+    }
+
+    #box1:hover #sombra{
+        filter: brightness(50%);
+    }
+
+    #box1:hover #camisa {
+        display: block;
+    }
+
+    #box2{
+        background-color: rgb(0, 0, 0);
+        max-width: 400px;
+        min-width: 400px;
+        height: 600px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        position: relative;
+    }
+
+    #box2:hover{
+        transition: 0.3s;
+    transform: scale(1.1);
+    }
+
+    #box2:hover #sombra2{
+        filter: brightness(50%);
+    }
+
+    #box2:hover #bermuda {
+        display: block;
+    }
+
+
+    #box3{
+        background-color: rgb(0, 0, 0);
+        max-width: 400px;
+        min-width: 400px;
+        height: 600px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        position: relative;
+    }
+
+    #box3:hover{
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+
+    #box3:hover #sombra3{
+        filter: brightness(50%);
+    }
+
+    #box3:hover #acessorio {
+        display: block;
+    }
+
+    #camisa, #bermuda, #acessorio {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+
+    /*fim*/
+
+    footer{
+        margin-top:auto;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        bottom:0;
+    }
+
+
+
+
+    /*Segunda página*/
+
+
+#conatainer2{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 5%;
+}
+
+
+#categorias{
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    justify-content: space-around;
+    background-color: #868686;
+}
+
+#box1pag2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+
+
+.camisas{
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#camisa1, #camisa2, #camisa3, #camisa4, #camisa5{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px;
+}
+
+.fundoft{
+    background-color:#8686861c;
+    padding: 40px 0 30px 0;
+}
+
+#camisa1:hover, #camisa2:hover, #camisa3:hover, #camisa4:hover, #camisa5:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    filter:drop-shadow(10px 15px 20px black)
+}
+
+
+/* Modal preço */
+
+
+#modal{
+    width: 70%;
+    min-height: 80vh;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 100px;
+    z-index: 20;
+    display:none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#camisapreco{
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 400px;
+}
+
+#boxpreco{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+#sairpreco{
+    width:25px;
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 200px;
+    margin-left: auto;
+}
+
+#sairpreco:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+#finalizar{
+    margin-top:auto;
+    border-radius: 100px;
+    padding:2%  10% 2% 10% ;
+    font-size: 1.5rem;
+    background-color: rgb(146, 249, 43);
+}
+
+#finalizar:hover{
+    -webkit-box-shadow: 0px 0px 72px 3px rgb(146, 249, 43);
+-moz-box-shadow: 0px 0px 72px 3px rgb(146, 249, 43);
+box-shadow: 0px 0px 72px 3px rgb(146, 249, 43);
+}
+
+#nomepreco{
+    margin-top: 15%;
+    font-size: 1.5rem;
+}
+
+#lstamanho{
+    margin-top: 10%;
+}
+
+#p, #m, #g, #xl{
+    border-radius: 200px;
+    padding: 5px 10px 5px 10px
+}
+
+#p:hover, #m:hover, #g:hover, #xl:hover{
+    color: rgb(0, 0, 0);
+    background-color: #c0db93;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+}
+
+
+/* Carrinho */
+
+
+
+/* Sobre */
+
+#textsobre{
+    max-width: 50%;
+}
+
+#imgsobre{
+    min-width:450px;
+    max-width:450px;
+}
