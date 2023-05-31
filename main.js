@@ -143,11 +143,8 @@ function exibirCarrinho() {
     const itensCarrinho = document.getElementById("itensCarrinho");
     const totalCarrinho = document.getElementById("totalCarrinho");
 
-    // Limpa o conteúdo atual do carrinho na página
-    itensCarrinho.innerHTML = "";
     totalCarrinho.innerText = "0.00";
 
-    // Percorre os itens do carrinho e os exibe na página
     Object.keys(carrinho).forEach((itemId) => {
         const item = carrinho[itemId];
         const { produto, preco } = item;

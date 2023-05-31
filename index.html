@@ -18,24 +18,24 @@
     </style>
 </head>
 <body>
+    <div id="overlay" onclick="SairCarrinho()"></div>
     <div id="container">
         <header>
             <ul id="listacabecalho">
                 <a href="index.html"><li class="linhacabecalho">home</li></a>
                 <a href="conheça.html"><li class="linhacabecalho">sobre</li></a>
-                <a href="#"><li class="linhacabecalho">contato</li></a>
             </ul>
 
             <h1 id="logo"><strong>CPTV</strong></h1>
 
             <div>
-                <a href="#"><span class="material-symbols-outlined">shopping_cart_checkout</span></a>
+                <a href="#"onclick="Mostar()"> <span class="material-symbols-outlined" >shopping_cart_checkout</span></a>
             </div>
         </header>
 
         <div id="texto1">
-            <h2>Titulo & Titulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iste, dignissimos magnam, quisquam accusamus iure sint a aut harum numquam facilis, officia cumque voluptates et quas laboriosam. Velit, voluptas mollitia!</p>
+            <h2>Capitive Br</h2>
+            <p>A Captive começou como uma pequena loja de roupas nas ruas de São Paulo. Fundada por dois amigos apaixonados por moda e cultura urbana, a loja rapidamente ganhou popularidade entre os jovens da cidade.</p>
             <a href="conheça.html"><button id="conhecer"><strong>CONHEÇA-NOS</strong></button></a>
         </div>
     </div>
@@ -63,6 +63,12 @@
         </a>
 
     </main>
+
+    <aside>
+        <h3 id="txtcar">Carrinho de Compras</h3>
+        <ul id="itensCarrinho"></ul>
+        <p id="total">Total: R$ <span id="totalCarrinho">0</span></p>
+    </aside>
 
     <footer>
         <p>© 2023 CPTV - Todos os direitos reservados.</p>
