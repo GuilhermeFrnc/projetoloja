@@ -10,89 +10,87 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="overlay"></div>
+    <div id="overlay" onclick="SairTudo()"></div>
     <header>
         <ul id="listacabecalho">
-            <a href="index.html"><li class="linhacabecalho">home</li></a>
-            <a href="#"><li class="linhacabecalho">sobre</li></a>
-            <a href="#"><li class="linhacabecalho">contato</li></a>
+            <ul id="listacabecalho">
+                <a href="index.html"><li class="linhacabecalho">home</li></a>
+                <a href="conheça.html"><li class="linhacabecalho">sobre</li></a>
+                <a href="#"><li class="linhacabecalho">contato</li></a>
+            </ul>
         </ul>
 
         <h1 id="logo"><strong>CPTV</strong></h1>
 
         <div>
-            <a href="#"><span class="material-symbols-outlined">search</span></a>
-            <a href="#"><span class="material-symbols-outlined">shopping_cart_checkout</span></a>
+            <span class="material-symbols-outlined">shopping_cart_checkout</span>
         </div>
     </header>
     <div id="container2">
 
         <ul id="categorias">
-            <li>T-Shirts</li>
-            <li>Bermudas</li>
-            <li>Acessórios</li>
+            <li><a  href=lojapagum.html>T-shirts</a></li>
+            <li><a  href=pagdois.html>Bermudas</a></li>
+            <li><a  href="pagtres.html">Acessórios</a></li>
         </ul>
 
         <div id="box1pag2">
-            <div class="camisas" data-nome="Camisa Preta" data-preco="70,00" data-img="style/img/camisa1costas.png" onclick="InfoProduto(this)">
+            <div class="camisas" data-nome="Camisa Preta Tigre" data-preco="110,00" data-img="style/img/costascamisatigre.png" onclick="InfoProduto(this)">
                 <div class="fundoft">
-                <img src="style/img/camisa1frente.png" id="camisa1" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
+                <img src="style/img/frentecamisatigre.png" id="camisa1" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
                 </div>
-                <p class="valor">Camisa Preta CPTV<br>preço: R$ 70,00</p>
+                <p class="valor">Camisa Preta Tigre<br>preço: R$ 110,00</p>
             </div>
 
-            <div class="camisas" data-nome="Camisa Preta" data-preco="70,00" data-img="style/img/camisa1costas.png" onclick="InfoProduto(this)">
+            <div class="camisas" data-nome="Camisa estampa rosa" data-preco="100,00" data-img="style/img/frentecamisarosa.png" onclick="InfoProduto(this)">
                 <div class="fundoft">
-                <img src="style/img/camisa1frente.png" id="camisa2" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
+                <img src="style/img/frentecamisarosa.png" id="camisa2" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
                 </div>
-                <p class="valor">Camisa Preta CPTV<br>preço: R$ 70,00</p>
+                <p class="valor">Camisa estampa rosa CPTV<br>preço: R$ 100,00</p>
             </div>
 
-            <div class="camisas" data-nome="Camisa Preta" data-preco="70,00" data-img="style/img/camisa1costas.png" onclick="InfoProduto(this)">
+            <div class="camisas" data-nome="Camisa Preta Tigre" data-preco="110,00" data-img="style/img/costascamisatigre.png" onclick="InfoProduto(this)">
                 <div class="fundoft">
-                <img src="style/img/camisa1frente.png" id="camisa3" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
+                <img src="style/img/frentecamisatigre.png" id="camisa3" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
                 </div>
-                <p class="valor">Camisa Preta CPTV<br>preço: R$ 70,00</p>
+                <p class="valor">Camisa Preta Tigre<br>preço: R$ 110,00</p>
             </div>
 
-            <div class="camisas" data-nome="Camisa Preta" data-preco="70,00" data-img="style/img/camisa1costas.png" onclick="InfoProduto(this)">
+            <div class="camisas" data-nome="Camisa estampa rosa" data-preco="100,00" data-img="style/img/frentecamisarosa.png" onclick="InfoProduto(this)">
                 <div class="fundoft">
-                <img src="style/img/camisa1frente.png" id="camisa4" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
+                <img src="style/img/frentecamisarosa.png" id="camisa4" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
                 </div>
-                <p class="valor">Camisa Preta CPTV<br>preço: R$ 70,00</p>
+                <p class="valor">Camisa estampa rosa CPTV<br>preço: R$ 100,00</p>
             </div>
 
-            <div class="camisas" data-nome="Camisa Preta" data-preco="70,00" data-img="style/img/camisa1costas.png" onclick="InfoProduto(this)">
+            <div class="camisas" data-nome="Camisa Preta Tigre" data-preco="110,00" data-img="style/img/costascamisatigre.png" onclick="InfoProduto(this)">
                 <div class="fundoft">
-                <img src="style/img/camisa1frente.png" id="camisa5" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
+                <img src="style/img/frentecamisatigre.png" id="camisa5" alt=""  onmouseover="VirarProduto(this.id)" onmouseout="VoltarProduto(this.id)">
                 </div>
-                <p class="valor">Camisa Preta CPTV<br>preço: R$ 70,00</p>
+                <p class="valor">Camisa Preta Tigre<br>preço: R$ 110,00</p>
             </div>
 
         </div>
     </div>
 
     <footer>
-        <p>lalalllalalala</p>
+        <p>© 2023 CPTV - Todos os direitos reservados.</p>
     </footer>
 
     <div id="modal">
         <img id="camisapreco" src="" alt="#">
         <div id="boxpreco">
             <button id="sairpreco" onclick="Sair()">X</button>
-            <h3 id="nomepreco"></h3>
+            <h2 id="nomepreco"></h2>
             <p id="preco"></p>
-            <ul id="lstamanho">
-                <li><button id="p" onclick="PrecionarTamanho(this.id)">p</button></li>
-                <li ><button id="m" onclick="PrecionarTamanho(this.id)">m</button></li>
-                <li ><button id="g" onclick="PrecionarTamanho(this.id)">g</button></li>
-                <li ><button id="xl" onclick="PrecionarTamanho(this.id)">xl</button></li>
-            </ul>
-            <button id="finalizar">Adicionar ao Carrinho</button>
+            <button id="finalizar"  onclick="Adicionar()">Adicionar ao Carrinho</button>
         </div>
     </div>
 
     <aside>
+        <h3 id="txtcar">Carrinho de Compras</h3>
+        <ul id="itensCarrinho"></ul>
+        <p id="total">Total: R$ <span id="totalCarrinho">0</span></p>
     </aside>
 
 
